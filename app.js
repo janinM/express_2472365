@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express') //Importar el paquete express
 const app = express()
 const hbs= require('hbs')//solamente para trabajar a nivel de plantillas
