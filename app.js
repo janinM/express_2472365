@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express') //Importar el paquete express
 const app = express()
 const hbs= require('hbs')//solamente para trabajar a nivel de plantillas
-const port = 8282 //Definir el puerto
+const port = process.env.PORT //Definir el puerto
 
 //servidor contenido estático
 //Establecer el directorio donde se encuentran los
